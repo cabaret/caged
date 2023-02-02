@@ -235,7 +235,6 @@ function App() {
         {showShape &&
           Object.entries(SHAPES[position]).map(([n, s], sIdx) => (
             <div className='flex gap-8 items-center justify-center mt-2' key={sIdx}>
-              <strong className='text-sm'>{STRINGS_BY_NUMBER[n as keyof typeof STRINGS_BY_NUMBER]}</strong>
               {(s as string[]).map((f, fIdx) => (
                 <span
                   key={`${sIdx}-${fIdx}`}
