@@ -157,7 +157,7 @@ function App() {
 
   return (
     <div className='flex flex-col items-center justify-center gap-8 mt-8'>
-      <div className='flex gap-8 flex-wrap items-center justify-center px-8'>
+      <div className='flex gap-2 flex-wrap items-center justify-center px-8'>
         <label htmlFor='tonality' className='flex gap-1'>
           <strong>Tonality:</strong>
           <select
@@ -257,7 +257,7 @@ function App() {
           ))}
       </div>
 
-      <div className='flex gap-4'>
+      <div className='flex gap-4 mt-4'>
         <button
           className='bg-gray-400 text-white rounded-md p-4 hover:bg-gray-600 transition-all hover:shadow-md'
           onClick={() => {
